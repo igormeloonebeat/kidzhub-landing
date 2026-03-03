@@ -4,7 +4,9 @@ const plans = [
   {
     name: "KidzCare",
     badge: "care",
-    price: "29,90",
+    monthlyPrice: "99,90",
+    annualPrice: "58,25",
+    annualTotal: "699",
     color: "coral",
     href: "https://care.kidzhub.com.br/assinatura",
     features: [
@@ -21,7 +23,9 @@ const plans = [
   {
     name: "KidzEdu",
     badge: "edu",
-    price: "19,90",
+    monthlyPrice: "99,90",
+    annualPrice: "58,25",
+    annualTotal: "699",
     color: "teal",
     href: "https://edu.kidzhub.com.br/assinatura",
     features: [
@@ -59,14 +63,27 @@ export function Pricing() {
                   {plan.name}
                 </div>
 
+                {/* Annual price — highlighted */}
                 <div className="flex items-baseline gap-1 mb-1">
-                  <span className="text-4xl font-extrabold text-teal-900">R$ {plan.price}</span>
+                  <span className="text-4xl font-extrabold text-teal-900">R$ {plan.annualPrice}</span>
                   <span className="text-teal-500">/mês</span>
                 </div>
+                <p className="text-xs text-teal-500 mb-1">
+                  no plano anual (R$ {plan.annualTotal}/ano)
+                </p>
 
-                <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium mb-6 ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
-                  7 dias grátis
-                </span>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
+                    Economia de 42%
+                  </span>
+                  <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
+                    7 dias grátis
+                  </span>
+                </div>
+
+                <p className="text-sm text-teal-500 mb-6">
+                  ou R$ {plan.monthlyPrice}/mês no mensal
+                </p>
 
                 <ul className="space-y-3 mb-8">
                   {plan.features.map((f) => (
