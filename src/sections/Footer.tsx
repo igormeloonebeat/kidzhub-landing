@@ -8,10 +8,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <img src="/favicon.png" alt="KidzHub" className="w-8 h-8 rounded-lg" />
-              <span className="font-bold text-lg">
-                Kidz<span className="text-coral-300">Hub</span>
-              </span>
+              <img src="/logo.png" alt="KidzHub" className="h-9 w-auto brightness-0 invert" />
             </div>
             <p className="text-teal-300 text-sm">
               Cuidado e educação dos seus filhos em um só lugar.

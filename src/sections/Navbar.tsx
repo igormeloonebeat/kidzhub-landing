@@ -14,10 +14,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 bg-cream-50/80 backdrop-blur-lg border-b border-teal-100/50">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <img src="/favicon.png" alt="KidzHub" className="w-8 h-8 rounded-lg" />
-          <span className="font-bold text-xl text-teal-900">
-            Kidz<span className="text-coral-400">Hub</span>
-          </span>
+          <img src="/logo.png" alt="KidzHub" className="h-10 w-auto" />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
