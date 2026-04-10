@@ -4,9 +4,9 @@ const plans = [
   {
     name: "KidzCare",
     badge: "care",
-    monthlyPrice: "99,90",
-    annualPrice: "58,25",
-    annualTotal: "699",
+    monthlyPrice: "29,90",
+    annualPrice: "25,00",
+    annualTotal: "300",
     color: "coral",
     href: "https://care.kidzhub.com.br/assinatura",
     features: [
@@ -23,9 +23,9 @@ const plans = [
   {
     name: "KidzEdu",
     badge: "edu",
-    monthlyPrice: "99,90",
-    annualPrice: "58,25",
-    annualTotal: "699",
+    monthlyPrice: "29,90",
+    annualPrice: "25,00",
+    annualTotal: "300",
     color: "teal",
     href: "https://edu.kidzhub.com.br/assinatura",
     features: [
@@ -74,7 +74,7 @@ export function Pricing() {
 
                 <div className="flex items-center gap-2 mb-1">
                   <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
-                    Economia de 42%
+                    Economia de 16%
                   </span>
                   <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
                     7 dias grátis
