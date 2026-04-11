@@ -4,7 +4,7 @@ const plans = [
   {
     name: "KidzCare",
     badge: "care",
-    monthlyPrice: "29,90",
+    monthlyPrice: "39,90",
     annualPrice: "25,00",
     annualTotal: "300",
     color: "coral",
@@ -23,7 +23,7 @@ const plans = [
   {
     name: "KidzEdu",
     badge: "edu",
-    monthlyPrice: "29,90",
+    monthlyPrice: "39,90",
     annualPrice: "25,00",
     annualTotal: "300",
     color: "teal",
