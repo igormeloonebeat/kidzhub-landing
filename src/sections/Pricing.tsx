@@ -11,6 +11,7 @@ const plans = [
     color: "coral",
     href: "https://apps.apple.com/br/app/seiva-family/id6762351392",
     cta: "Baixar na App Store",
+    trial: true,
     features: [
       "Perfis ilimitados de filhos",
       "Módulo de Saúde completo",
@@ -54,7 +55,7 @@ export function Pricing() {
           Planos simples e acessíveis
         </h2>
         <p className="text-teal-600 text-center mb-12">
-          Planos mensal e anual. Cancele quando quiser.
+          Comece com 7 dias grátis. Cancele quando quiser.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

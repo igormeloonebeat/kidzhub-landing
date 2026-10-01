@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Como funciona o período de teste?",
-    a: "O KidzEdu oferece 7 dias grátis. No Seiva, as condições da assinatura aparecem na App Store antes da compra. Cancele a qualquer momento sem compromisso.",
+    a: "Ambos os apps oferecem 7 dias grátis. Você só será cobrado após o período de teste. Cancele a qualquer momento sem compromisso.",
   },
   {
     q: "Posso compartilhar com outros cuidadores?",
