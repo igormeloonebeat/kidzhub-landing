@@ -9,9 +9,8 @@ const plans = [
     annualTotal: "209,90",
     savings: "40%",
     color: "coral",
-    href: "https://apps.apple.com/app/id6762351392",
+    href: "https://apps.apple.com/br/app/seiva-family/id6762351392",
     cta: "Baixar na App Store",
-    webHref: "https://www.seivafamily.com/assinatura",
     features: [
       "Perfis ilimitados de filhos",
       "Módulo de Saúde completo",
@@ -34,6 +33,7 @@ const plans = [
     color: "teal",
     href: "https://edu.kidzhub.com.br/assinatura",
     cta: "Começar teste grátis",
+    trial: true,
     features: [
       "Trilhas gamificadas ilimitadas",
       "Mini-jogos educativos",
@@ -54,7 +54,7 @@ export function Pricing() {
           Planos simples e acessíveis
         </h2>
         <p className="text-teal-600 text-center mb-12">
-          Comece com 7 dias grátis. Cancele quando quiser.
+          Planos mensal e anual. Cancele quando quiser.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -82,9 +82,11 @@ export function Pricing() {
                   <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
                     Economia de {plan.savings}
                   </span>
-                  <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
-                    7 dias grátis
-                  </span>
+                  {plan.trial && (
+                    <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
+                      7 dias grátis
+                    </span>
+                  )}
                 </div>
 
                 <p className="text-sm text-teal-500 mb-6">
@@ -106,11 +108,6 @@ export function Pricing() {
                 >
                   {plan.cta}
                 </a>
-                {plan.webHref && (
-                  <a href={plan.webHref} className="block text-center text-sm text-teal-600 hover:text-teal-900 mt-3">
-                    ou assine pela web
-                  </a>
-                )}
               </div>
             );
           })}

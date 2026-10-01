@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Como funciona o período de teste?",
-    a: "Ambos os apps oferecem 7 dias grátis. Você só será cobrado após o período de teste. Cancele a qualquer momento sem compromisso.",
+    a: "O KidzEdu oferece 7 dias grátis. No Seiva, as condições da assinatura aparecem na App Store antes da compra. Cancele a qualquer momento sem compromisso.",
   },
   {
     q: "Posso compartilhar com outros cuidadores?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Como funciona o pagamento?",
-    a: "No iPhone, a assinatura do Seiva é feita pela App Store. Na web, aceitamos cartão de crédito via Stripe. Há planos mensal e anual, e você pode cancelar a qualquer momento.",
+    a: "A assinatura do Seiva é feita pela App Store, nos planos mensal e anual. O KidzEdu aceita cartão de crédito via Stripe. Em ambos você pode cancelar a qualquer momento.",
   },
   {
     q: "Meus dados estão seguros?",
