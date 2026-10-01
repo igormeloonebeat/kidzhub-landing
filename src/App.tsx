@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Navbar } from "./sections/Navbar";
 import { Hero } from "./sections/Hero";
 import { AppCards } from "./sections/AppCards";
-import { FeaturesKidzCare } from "./sections/FeaturesKidzCare";
+import { FeaturesSeiva } from "./sections/FeaturesSeiva";
 import { FeaturesKidzEdu } from "./sections/FeaturesKidzEdu";
 import { Testimonials } from "./sections/Testimonials";
 import { Pricing } from "./sections/Pricing";
@@ -38,7 +38,7 @@ export default function App() {
       <main>
         <Hero />
         <div className="animate-on-scroll"><AppCards /></div>
-        <div className="animate-on-scroll"><FeaturesKidzCare /></div>
+        <div className="animate-on-scroll"><FeaturesSeiva /></div>
         <div className="animate-on-scroll"><FeaturesKidzEdu /></div>
         <div className="animate-on-scroll"><Testimonials /></div>
         <div className="animate-on-scroll"><Pricing /></div>

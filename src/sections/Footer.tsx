@@ -19,7 +19,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-sm mb-3">Produtos</h4>
             <ul className="space-y-2 text-sm text-teal-300">
-              <li><a href="https://care.kidzhub.com.br" className="hover:text-white transition-colors">KidzCare</a></li>
+              <li><a href="https://www.seivafamily.com" className="hover:text-white transition-colors">Seiva</a></li>
               <li><a href="https://edu.kidzhub.com.br" className="hover:text-white transition-colors">KidzEdu</a></li>
               <li><a href="#precos" className="hover:text-white transition-colors">Preços</a></li>
             </ul>

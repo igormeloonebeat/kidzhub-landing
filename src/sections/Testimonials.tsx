@@ -5,7 +5,7 @@ const testimonials = [
     name: "Ana C.",
     role: "Mãe de 2 filhos",
     initials: "AC",
-    text: "Finalmente consigo organizar consultas, vacinas e notas escolares dos meus dois filhos sem perder nada. O KidzCare mudou minha rotina.",
+    text: "Finalmente consigo organizar consultas, vacinas e notas escolares dos meus dois filhos sem perder nada. O Seiva mudou minha rotina.",
   },
   {
     name: "Marcos R.",

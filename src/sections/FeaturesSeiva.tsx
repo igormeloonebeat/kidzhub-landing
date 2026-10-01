@@ -11,21 +11,21 @@ const features = [
   { icon: Users, title: "Equipe", desc: "Babás, avós e cuidadores com permissões" },
 ];
 
-export function FeaturesKidzCare() {
+export function FeaturesSeiva() {
   return (
     <section id="recursos" className="py-16 lg:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
           <div className="lg:w-2/5 lg:sticky lg:top-24">
             <span className="inline-flex items-center px-3 py-1 rounded-full bg-coral-100 text-coral-600 text-xs font-semibold uppercase tracking-wide mb-4">
-              KidzCare
+              Seiva
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Tudo sobre seus filhos em um só lugar
             </h2>
             <p className="text-teal-600 text-lg">
               De consultas médicas a notas escolares, de atividades extracurriculares a finanças —
-              o KidzCare centraliza todas as informações da sua família.
+              o Seiva centraliza todas as informações da sua família.
             </p>
           </div>
 

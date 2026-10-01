@@ -4,11 +4,11 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "O que é o KidzHub?",
-    a: "KidzHub é a plataforma que une o KidzCare (gestão familiar) e o KidzEdu (educação gamificada). Você pode usar um ou ambos os apps conforme sua necessidade.",
+    a: "KidzHub é a plataforma que une o Seiva (gestão familiar) e o KidzEdu (educação gamificada). Você pode usar um ou ambos os apps conforme sua necessidade.",
   },
   {
     q: "Preciso assinar os dois apps?",
-    a: "Não. Cada app tem sua própria assinatura independente. Você pode usar apenas o KidzCare, apenas o KidzEdu, ou os dois juntos.",
+    a: "Não. Cada app tem sua própria assinatura independente. Você pode usar apenas o Seiva, apenas o KidzEdu, ou os dois juntos.",
   },
   {
     q: "Como funciona o período de teste?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Posso compartilhar com outros cuidadores?",
-    a: "Sim! No KidzCare você pode convidar babás, avós e outros cuidadores com permissões personalizadas para cada módulo.",
+    a: "Sim! No Seiva você pode convidar babás, avós e outros cuidadores com permissões personalizadas para cada módulo.",
   },
   {
     q: "O KidzEdu é indicado para qual faixa etária?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Como funciona o pagamento?",
-    a: "Aceitamos cartão de crédito via Stripe. A cobrança é mensal e você pode cancelar a qualquer momento pelo painel da sua conta.",
+    a: "No iPhone, a assinatura do Seiva é feita pela App Store. Na web, aceitamos cartão de crédito via Stripe. Há planos mensal e anual, e você pode cancelar a qualquer momento.",
   },
   {
     q: "Meus dados estão seguros?",

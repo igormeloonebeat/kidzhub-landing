@@ -26,8 +26,8 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="https://care.kidzhub.com.br" className="text-sm font-medium px-4 py-2 rounded-full border border-teal-300 text-teal-700 hover:bg-teal-50 transition-colors">
-            KidzCare
+          <a href="https://www.seivafamily.com" className="text-sm font-medium px-4 py-2 rounded-full border border-teal-300 text-teal-700 hover:bg-teal-50 transition-colors">
+            Seiva
           </a>
           <a href="https://edu.kidzhub.com.br" className="text-sm font-medium px-4 py-2 rounded-full bg-coral-400 text-white hover:bg-coral-500 transition-colors">
             KidzEdu
@@ -47,8 +47,8 @@ export function Navbar() {
             </a>
           ))}
           <div className="flex gap-3 mt-3">
-            <a href="https://care.kidzhub.com.br" className="flex-1 text-center text-sm font-medium px-4 py-2 rounded-full border border-teal-300 text-teal-700">
-              KidzCare
+            <a href="https://www.seivafamily.com" className="flex-1 text-center text-sm font-medium px-4 py-2 rounded-full border border-teal-300 text-teal-700">
+              Seiva
             </a>
             <a href="https://edu.kidzhub.com.br" className="flex-1 text-center text-sm font-medium px-4 py-2 rounded-full bg-coral-400 text-white">
               KidzEdu

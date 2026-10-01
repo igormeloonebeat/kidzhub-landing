@@ -2,22 +2,26 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "KidzCare",
+    name: "Seiva",
     badge: "care",
-    monthlyPrice: "39,90",
-    annualPrice: "25,00",
-    annualTotal: "300",
+    monthlyPrice: "29,90",
+    annualPrice: "17,49",
+    annualTotal: "209,90",
+    savings: "40%",
     color: "coral",
-    href: "https://care.kidzhub.com.br/assinatura",
+    href: "https://apps.apple.com/app/id6762351392",
+    cta: "Baixar na App Store",
+    webHref: "https://www.seivafamily.com/assinatura",
     features: [
       "Perfis ilimitados de filhos",
       "Módulo de Saúde completo",
       "Módulo Escolar completo",
       "Gestão de Atividades",
-      "Controle Financeiro familiar",
+      "Controle Financeiro",
       "Planejamento de Viagens",
-      "Agenda e Custódia compartilhada",
-      "Gestão de Equipe",
+      "Agenda — Calendário de atividades e guarda",
+      "Gestão de Equipe (babás, gestoras)",
+      "Compartilhamento externo seguro",
     ],
   },
   {
@@ -26,8 +30,10 @@ const plans = [
     monthlyPrice: "39,90",
     annualPrice: "25,00",
     annualTotal: "300",
+    savings: "16%",
     color: "teal",
     href: "https://edu.kidzhub.com.br/assinatura",
+    cta: "Começar teste grátis",
     features: [
       "Trilhas gamificadas ilimitadas",
       "Mini-jogos educativos",
@@ -74,7 +80,7 @@ export function Pricing() {
 
                 <div className="flex items-center gap-2 mb-1">
                   <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
-                    Economia de 16%
+                    Economia de {plan.savings}
                   </span>
                   <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${isCoral ? "bg-coral-50 text-coral-600" : "bg-teal-50 text-teal-600"}`}>
                     7 dias grátis
@@ -98,8 +104,13 @@ export function Pricing() {
                   href={plan.href}
                   className={`block text-center px-6 py-3 rounded-full font-semibold transition-colors ${isCoral ? "bg-coral-400 text-white hover:bg-coral-500" : "bg-teal-600 text-white hover:bg-teal-700"}`}
                 >
-                  Começar teste grátis
+                  {plan.cta}
                 </a>
+                {plan.webHref && (
+                  <a href={plan.webHref} className="block text-center text-sm text-teal-600 hover:text-teal-900 mt-3">
+                    ou assine pela web
+                  </a>
+                )}
               </div>
             );
           })}

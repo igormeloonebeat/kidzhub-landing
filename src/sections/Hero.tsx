@@ -25,10 +25,10 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
           <a
-            href="https://care.kidzhub.com.br"
+            href="https://www.seivafamily.com"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-coral-400 text-white font-semibold hover:bg-coral-500 transition-colors"
           >
-            Conhecer KidzCare <ArrowRight size={18} />
+            Conhecer Seiva <ArrowRight size={18} />
           </a>
           <a
             href="https://edu.kidzhub.com.br"
